@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Login from "./componenets/login";
-import Create from "./componenets/create";
-import Posts from "./componenets/posts";
-import Register from "./componenets/register";
+import Login from "./components/login";
+import Create from "./components/create";
+import Posts from "./components/posts";
+import Register from "./components/register";
 import "./App.css";
 
 function App() {
