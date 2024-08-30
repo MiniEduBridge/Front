@@ -1,0 +1,50 @@
+.title {
+    align-items: center;
+    font-weight: bold;
+    font-size: 36px;
+    width: 1800px;
+    border: 0px solid transparent;
+    margin-left: 30px;
+    margin-top: 20px;
+    outline: none;
+    min-width: 1000px;
+  }
+  
+  .content {
+    font-size: 30px;
+    width: 1780px;
+    border: 0px solid transparent;
+    margin-left: 55px;
+    margin-top: 20px;
+    outline: none;
+    height: 600px;
+    resize: none;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .postButton,
+  .cancelButton {
+    font-weight: bold;
+    font-size: 26px;
+    width: 123px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-color: transparent;
+    color: white;
+  }
+  
+  .postButton {
+    background-color: #302cff;
+    margin-right: 180px;
+  }
+  
+  .cancelButton {
+    background-color: #ff2c2c;
+  }

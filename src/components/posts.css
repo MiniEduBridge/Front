@@ -1,0 +1,95 @@
+/* src/pages/Posts.css */
+.logoutButton {
+    border: none;
+    border: 1px solid #ff2c2c;
+    background-color: #ff2c2c;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    float: right;
+    display: flex;
+    padding: 7px;
+    cursor: pointer;
+  }
+  
+  .posts-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+  
+  .posts-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .posts-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .post-item {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .post-item:last-child {
+    border-bottom: none;
+  }
+  
+  .post-title {
+    font-size: 1.25em;
+    margin: 0;
+    color: #007bff;
+  }
+  
+  .post-content {
+    margin-top: 5px;
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .no-posts {
+    text-align: center;
+    font-size: 1em;
+    color: #888;
+  }
+  
+  .message {
+    text-align: center;
+    font-size: 1em;
+    color: #d9534f;
+    margin-bottom: 15px;
+  }
+  
+  .buttonClass {
+    height: 20px;
+  }
+  
+  .createButton {
+    border: none;
+    border: 1px solid #007bff;
+    background-color: #006fe6;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    float: right;
+    display: flex;
+    padding: 7px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 600px) {
+    .posts-container {
+      padding: 15px;
+    }
+  
+    .post-item {
+      padding: 10px;
+    }
+  }

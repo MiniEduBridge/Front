@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  background-color: #f9f9f9;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.inputIdPassword {
+  border-radius: 5px;
+  font-size: 18px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.loginButton {
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  border-color: transparent;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 15px;
+  border: none;
+  width: 600px;
+}
+
+.App-link {
+  text-decoration: none;
+  color: #8d8d8d;
+}
+
+.App-link:hover {
+  text-decoration: underline;
+}
